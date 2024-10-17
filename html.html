@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choix</title>
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form action="sauvegarder.html" name ="f1" method ="get">
+        <p>Nom:<input type="text" size="20" maxlength="30"></p>
+        <p>Prenom:<input type="text" size="20" maxlength="30"></p>
+        <p>Adresse<textarea cols="25" rows="3"></textarea></p>
+        <p>Votre Type de BAC</p>
+        <select name ="bac" size="6"><option selected>Sc-Info</option>
+            <option>Maths</option>
+            <option>Sc-exp</option>
+            <option>Technique</option>
+            <option>Economie</option>
+            <option>Letters</option>
+        </select>
+        <p>Choix de la langue:</p>
+        <input type="radio" value="fr">Francais<br>
+        <input type="radio" value="en">Anglais<br>
+        <input type="checkbox" value="mus">Musique<br>
+        <input type="checkbox" value="art">Dessin<br>
+        <p>Votre photo:</p>
+        <input type="file" value="photo" size="40"><br>
+        <center><input type="submit" value="sent" id="sent"></center>
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
